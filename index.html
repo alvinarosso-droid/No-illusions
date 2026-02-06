@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psychology Slide Deck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              comfortaa: ['Comfortaa', 'sans-serif'],
+            },
+            colors: {
+              'slide-bg': '#ab8882',
+              'slide-font': '#efe5dc',
+              'accent-dark': '#7a4d48',
+              'accent-teal': '#d3878a',
+              'accent-red': '#a86965',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #222;
+        color: #efe5dc;
+        font-family: 'Comfortaa', sans-serif;
+      }
+      /* Hide scrollbar but keep functionality */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      .slide-container {
+        aspect-ratio: 16 / 9;
+        max-width: 100vw;
+        max-height: 100vh;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
